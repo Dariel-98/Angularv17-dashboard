@@ -4,9 +4,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-users',
   standalone: true,
-  imports: [
-    CommonModule,
-  ],
+  imports: [CommonModule],
   templateUrl: './users.component.html',
   styles: `
     :host {
@@ -14,4 +12,4 @@ import { Component } from '@angular/core';
     }
   `,
 })
-export class UsersComponent { }
+export default class UsersComponent {}
